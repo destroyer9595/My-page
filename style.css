@@ -34,6 +34,7 @@ h2
 body {
     font-family: Lato, Helvetica, sans-serif;
     background: #111;
+    overflow-x: hidden;
 } 
 .home {
     height: 100vh;
@@ -152,4 +153,33 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.background {
+    position: fixed;
+}
+
+#mr {
+    position: relative;
+    left: 2%;
+}
+
+.back {
+    position: fixed;
+    width: 100%;
+    height: 80%;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    opacity: 50%;
+}
+
+.back2 {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    left: 0%;
+    background-color: black;
+    opacity: 50%;
 }
