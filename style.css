@@ -146,5 +146,9 @@ nav a {
 #stitle {
     position: absolute;
     top: 40%;
-    left: 36%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
