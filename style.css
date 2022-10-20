@@ -142,3 +142,9 @@ nav a {
 .title {
     color: white;
 }
+
+#stitle {
+    position: absolute;
+    top: 40%;
+    left: 36%;
+}
