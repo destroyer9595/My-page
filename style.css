@@ -10,13 +10,14 @@ body
 
 #carte
 {
-	width: 800px;
+	width: 1000px;
 	margin:0 auto;
 	background-color: white;
 	text-align: center;
 	align-content: center;
 	position: relative;
 	top: 10px;
+    
 }
 
 h2
@@ -98,8 +99,8 @@ nav {
     width: 50vw;
     min-height: 100vh;
     right: 0;
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
     flex-direction: column;
     background: #111;

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+        <header class="header">
+            <div class="header__logo">
+                <img src="https://kipdev.io/_nuxt/img/symbole-color.dcc5925.png" />
+            </div>
+            <nav class="header__nav">
+                <div class="header__nav__close" onclick="closeMenuMobile()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+                    <ul class="header__nav__menu">
+                    <li class="header__nav__menu__link">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="index1.html">Virus.bat</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="index2.html">Virus matrix</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="flapybird.html">flapybird</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="mario-gh-pages/index.html">Mario</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="tetris.html">Tetris</a>
+                    </li>
+                    <li class="header__nav__menu__link">
+                        <a href="snake.html">Snake</a>
+                    </li>
+
+                </ul>
+        </nav>
+        <div class="header__burger" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+    </header>
+
+    <script>
+        function openMenuMobile() {
+            document.querySelector('.header__nav').classList.add('open');
+            document.querySelector('.overlay-menu-mobile').classList.add('open');
+        }
+
+        function closeMenuMobile() {
+            document.querySelector('.header__nav').classList.remove('open');
+            document.querySelector('.overlay-menu-mobile').classList.remove('open');
+        }
+    </script>
+    <div id="carte"
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme2.jpeg" />
+        <img src="img/meme3.jpeg" />
+        <img src="img/meme4.jpeg" />
+        <img src="https://i.imgflip.com/78aaot.jpg"/>
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+        <img src="img/meme1.jpeg" />
+    </div>
+</body>
+
+</html>
