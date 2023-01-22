@@ -96,6 +96,8 @@ h1 span {
 
 nav {
     position: fixed;
+    z-index: 10;
+    position: fixed;
     width: 50vw;
     min-height: 100vh;
     right: 0;
@@ -200,3 +202,11 @@ nav {
   top: 0;
 }
 
+#meme
+{
+    width: 1100px;
+	margin: auto;
+	text-align: center;
+	align-content: center;
+	position: relative;
+}
