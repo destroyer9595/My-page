@@ -1,48 +1,57 @@
-<!doctype html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <title>Titre de la page</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curtain menu</title>
     <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
 
-<body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="index1.html">Virus.bat</a>
-        <a href="index2.html">Virus Matrix</a>
-        <a href="flapybird.html">Flappy Bird</a>
-        <a href="mario-gh-pages/index.html">Mario</a>
-        <a href="tetris.html">Tertris</a>
-        <a href="snake.html">Snake</a>
-        <a href="https://github.com/Destroyer9595">GitHub</a>
-      </nav>
-        <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
-            <span class="line l1"></span>
-            <span class="line l2"></span>
-            <span class="line l3"></span>
-        </button>
-    
+  <nav>
+	<a href="index.html">Home</a>
+    <a href="index1.html">Virus.bat</a>
+    <a href="index2.html">Virus Matrix</a>
+    <a href="flapybird.html">Flappy Bird</a>
+    <a id="mobile" href="mario-gh-pages/index.html">Mario</a>
+    <a id="mobile2" href="snake.html">Snake</a>
+    <a id="mobile3" href="tetris.html">tetris</a>
+    <a href="https://github.com/Destroyer9595">GitHub</a>
+  </nav>
+    <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
+        <span class="line l1"></span>
+        <span class="line l2"></span>
+        <span class="line l3"></span>
+    </button>
+        <script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
         <div id="stitle">
-          <h1>Meme</h1>
-          </div>
-    
-            <script src="script.js"></script>
-    <div id="meme">
-        <img src="img/meme2.jpg" />
-        <img src="img/meme3.jpg" />
-        <img src="https://i.imgflip.com/78aaot.jpg"/>
-        <img src="img/meme5.jpg" />
-        <img src="img/meme6.jpg" />
-        <img src="img/meme1.jpg" />
-    </div>
-</body>
+            <h1>Meme</h1>
+        </div>
+        <script src="script.js"></script>
+        <div id="meme">
+            <img src="img/meme2.jpg" class="image" alt="Image" />
+            <img src="img/meme3.jpg" class="image" alt="Image" />
+            <img src="https://i.imgflip.com/78aaot.jpg" class="image" alt="Image">
+            <img src="img/meme5.jpg" class="image" alt="Image">
+            <img src="img/meme6.jpg" class="image" alt="Image">
+            <img src="img/meme1.jpg" class="image" alt="Image">
+        </div>
+        <script>
+            var estMobile = window.innerWidth < 768;
+            var lien = document.getElementById("mobile");
 
+            if (estMobile) {
+               lien.href = "mobile.html";
+            } else {
+            lien.href = "mario-gh-pages/index.html";
+            }
+        </script>
+        <script src="mobile.js"></script>
+  </body>
 </html>

@@ -1,0 +1,70 @@
+.desktop-hidden {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    #texte-mobile {
+      display: none;
+    }
+  }
+  h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  }
+
+.desktop-only {
+    display: contents; /* ou toute autre valeur d'affichage souhaitée */
+}
+
+@media (max-width: 768px) {
+      
+    .desktop-only{
+    display: none
+}          
+    
+#desktop-only {
+    script: none;
+}
+}
+
+html, body, ul, li {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    display: block;
+    width: 762;
+    margin: 0 auto;
+    background-color: blue;
+  }
+  
+  p {
+    text-align: center;
+    font-family: Arial, Times New Roman, sans-serif;
+    color: white;
+    font-size: 30px;
+    left: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: 100%;
+    background-color: black;
+  }
+  
+  html {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+#mobile{
+  display: none;
+}
