@@ -23,3 +23,11 @@ if (estMobile) {
 } else {
 lien.href = "tetris.html";
 }
+
+var lien = document.getElementById("mobile4");
+
+if (estMobile) {
+   lien.href = "mobile.html";
+} else {
+lien.href = "BattleCity-master/BattleCity.html";
+}
