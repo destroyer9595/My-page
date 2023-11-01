@@ -32,7 +32,7 @@ if (estMobile) {
 lien.href = "BattleCity-master/BattleCity.html";
 }
 
-var lien = document.getElementById("mobile4");
+var lien = document.getElementById("mobile5");
 
 if (estMobile) {
    lien.href = "mobile.html";
