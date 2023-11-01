@@ -5,7 +5,7 @@ var lien = document.getElementById("mobile");
 if (estMobile) {
    lien.href = "mobile.html";
 } else {
-lien.href = "mario-gh-pages/index.html";
+lien.href = "FullScreenMario-master/index.html";
 }
 
 var lien = document.getElementById("mobile2");
